@@ -34,7 +34,7 @@ def handle(client):
 
 def admincmds():
     while True:
-        command = input("")
+        command = input()
         if command == '/sq':
             broadcast('SAVSQ'.encode('ascii'))
             time.sleep(3)
